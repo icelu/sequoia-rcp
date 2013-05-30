@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Bioinfo
+Bundle-SymbolicName: edu.ecnu.bioinfo;  singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: lbx
+Require-Bundle: org.eclipse.ui;resolution:=optional,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.intro;resolution:=optional,
+ org.eclipse.ui.console;bundle-version="3.5.100";resolution:=optional,
+ org.eclipse.help;bundle-version="3.5.100"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.equinox.internal.p2.core,
+ org.eclipse.equinox.internal.p2.core.helpers,
+ org.eclipse.ui.console,
+ org.eclipse.ui.forms,
+ org.eclipse.ui.forms.events,
+ org.eclipse.ui.forms.widgets,
+ org.eclipse.update.ui
+

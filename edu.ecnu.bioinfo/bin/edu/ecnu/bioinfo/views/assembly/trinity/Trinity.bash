@@ -1,0 +1,3 @@
+# ./Trinity.pl --seqType fq --output output --left /mnt/_people2/shicp/trinityrnaseq_r2011-08-20/sample_data/test_Trinity_Assembly/reads.left.fq --right /mnt/_people2/shicp/trinityrnaseq_r2011-08-20/sample_data/test_Trinity_Assembly/reads.right.fq --min_kmer_cov 1 --CPU 2  --min_contig_length 200 --paired_fragment_length 300
+cd ~/trinityrnaseq_r2011-08-20/
+./Trinity.pl ${1} ${2} ${3} ${4} ${5} ${6} ${7} ${8} ${9} ${10} ${11} ${12} ${13} ${14} ${15} ${16} ${17} ${18} ${19} ${20} ${21} ${22} ${23} ${24} ${25} ${26} ${27} ${28} ${29}
